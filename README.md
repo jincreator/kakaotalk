@@ -1,7 +1,7 @@
- python wrapper of KakaoTalk LOCO protocol
+ python wrapper of KakaoTalk
 =====
  
-Main functions for LOCO protocol 
+This library provides a pure Python interface for the LOCO protocol of KakaoTalk.
 
 Copyright (c) 2013 Kim Tae Hoon
 
