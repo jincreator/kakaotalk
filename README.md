@@ -1,4 +1,4 @@
- python wrapper of KakaoTalk
+ python wrapper for LOCO protocol
 =====
  
 This library provides a pure Python interface for the LOCO protocol which is private protocol of KakaoTalk
