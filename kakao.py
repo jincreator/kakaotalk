@@ -393,24 +393,7 @@ def write_pic(s, chatId = 42865071710223L, url = "/talkm/oWduQM37UX/PLQiP0Jjbt4v
     succ = send(s, data)
     return succ
 
-# http://item-kr.talk.kakao.co.kr/dw/1109057.title.gif
-# http://item-kr.talk.kakao.co.kr/dw/1110004.thum_007.jpg
-# http://item-kr.talk.kakao.co.kr/dw/3300001.emot_001.png?{%22Resolution%22:%22480x800%22}
-# 1101011~1101049
-# 1110003.emot_009.gif # type 6
-# 1110004.thum_007.png # type 6
-# 1102139.emot_001.gif # type 6
-# 1102072.emot_001.gif # type 6
-# 2200002.emot_070.png # type 12
-# 2212023.emot_001.png # type 12
-# 2212073.emot_001.png # type 12
-# 2220007.emot_001.png
-# 1122001.emot_001.gif
-# 1107069.emot_001.gif
-# 1107071.emot_001.gif
-# 3309020.emot_001.gif
-#write_thumb(s, msg='',url='1102211.preview.png')
-def write_thumb(s, chatId, msg = u'', url = '1122001.emot_001.gif'):
+def write_thumb(s, chatId, msg = u'', url = ''):
     print " [*] WRITE THUMBNAIL to " + str(chatId) + " : " + url
 
     data = '\x06\x00\x00\x00' # Packet ID
