@@ -1,11 +1,11 @@
  python wrapper for LOCO protocol
 =====
  
-This library provides a pure Python interface for the LOCO protocol which is private protocol of KakaoTalk
+This library provides a pure Python interface for the LOCO protocol which is the private protocol of KakaoTalk.
 
-You need to know the sKey and duuid of your current KakaoTalk account before test commands.
+You need to know the sKey and duuid of your current account before you test the commands.
 
-These information shoulde be filled in config.py
+These information should be filled in config.py file.
 
 Example : http://goo.gl/9k6uC8
 
