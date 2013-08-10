@@ -7,6 +7,8 @@ You need to know the sKey and duuid of your current KakaoTalk account before tes
 
 These information shoulde be filled in config.py
 
+example : https://www.facebook.com/photo.php?fbid=486965651395097
+
 Copyright (c) 2013 Kim Tae Hoon
 
 contact : carpedm20@gmail.com
