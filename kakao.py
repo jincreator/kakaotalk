@@ -375,9 +375,8 @@ def write(s, chatId, msg = u'test'):
     succ = send(s, data)
     return succ
 
-#http://dn-m.talk.kakao.com/talkm/oWduQM37UX/PLQiP0Jjbt4vSb1dKGdK0K/39qkgm.jpg
 #write_pic(s, url=upload_pic())
-def write_pic(s, chatId = 42865071710223L, url = "/talkm/oWduQM37UX/PLQiP0Jjbt4vSb1dKGdK0K/39qkgm.jpg", width = 800, height = 600):
+def write_pic(s, chatId = 42865071710223L, url = "", width = 800, height = 600):
     print " [*] WRITE PICTURE to " + str(chatId) + " : " + url
 
     data = '\x06\x00\x00\x00' # Packet ID
@@ -436,7 +435,6 @@ def encode_multipart_formdata(fields, files):
     content_type = 'multipart/form-data; boundary=%s' % BOUNDARY
     return body
 
-#http://dn-m.talk.kakao.com/talkm/oWduQM37UX/PLQiP0Jjbt4vSb1dKGdK0K/39qkgm.jpg
 def upload_pic(file_name):
     print "  [!] UPLOAD : " + str(file_name)
     url = 'up-m.talk.kakao.com'
