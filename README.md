@@ -5,7 +5,7 @@ This library provides a pure Python interface for the LOCO protocol which is the
 
 You need to know the sKey and duuid of your current account before you test the commands.
 
-These information should be filled in config.py file.
+
 
 Example : http://goo.gl/9k6uC8
 
